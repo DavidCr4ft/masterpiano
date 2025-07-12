@@ -1,6 +1,6 @@
 
 body {
-    background-image: url("/static/img/piano1.jpg");
+    background-image: url("staticimgpiano1.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: repeat;
