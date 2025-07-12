@@ -8,20 +8,24 @@ body {
 
 
 .header {
-    background-color: #efdbdb;
+    
+    background-position: center;
     padding: 20px;
     text-align: center;
-    width: auto;
+    width: 1000px;
     height: auto;
     color: rgb(88, 55, 55);
+
 }
 
 .header__container {
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     background-color: #f8dada;
+    border-radius: 27px;
     padding: 20px;
 }
 
@@ -76,7 +80,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: center;
+    justify-content: space-between;
     padding: 40px;
 }
 
@@ -101,6 +105,15 @@ body {
     margin-top: 10px;
 }
 
+@keyframes beige{
+    0%{background-color: #f1b2b2;}
+
+    25%{transform: scale(5);}
+
+    100%{background-color: #f8dada;}
+    
+
+}
 
 .beige,
 .beige2,
@@ -117,7 +130,6 @@ body {
     position: relative;
     background-color: rgb(251, 231, 204);
     display: flex;
-    
     justify-content: space-around;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -164,22 +176,24 @@ body {
 
 .videopiano {
     display: flex;
+    justify-content: center;
     margin: 20px;
     padding: 20px;
     border-radius: 15px;
-    width: 800px;
+    width: 600px;
     height: auto;
-   
     line-height: 1.6;
-    
-    justify-content: space-between;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+
 .videopiano:hover {
+    width: 190;
+    height: auto;
     transform: scale(1.05);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
 }
 
 S
